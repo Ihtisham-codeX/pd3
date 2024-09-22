@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+main()
+{
+	int t_veg,t_fruit,earn;
+	float p_fruit,p_veg;
+	string movie;
+	cout<<"Enter the fruit price per kilogram:";
+	cin>> p_fruit;
+	cout<<"Enter the vegetable price per kilogram:";
+	cin>> p_veg;
+
+	cout<<"Enter the total kilograms of vegetable:";
+	cin>> t_veg;	
+	cout<<"Enter the total kilogram of fruits:";
+	cin>> t_fruit;
+	earn=(p_fruit*t_fruit)+(p_veg*t_veg);
+	cout<<"Total earning:"<< earn;
+
+
+}
